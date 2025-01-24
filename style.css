@@ -15,6 +15,7 @@ body {
 /* Container for centering content */
 .container {
   width: 90%;
+  color: blue;
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
@@ -46,6 +47,13 @@ header p {
   padding: 40px 0;
 }
 
+#intro .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 #intro p {
   font-size: 1.2em;
   color: #2F4F4F;
@@ -57,6 +65,8 @@ header p {
 #projects {
   background-color: #fafafa; /* Light background */
   padding: 60px 0;
+  border: 2px solid green; /* Green border around the entire section */
+  border-radius: 10px; /* Optional: rounded corners */
 }
 
 #projects h2 {
@@ -74,7 +84,8 @@ header p {
 
 .project {
   background-color: white;
-  border-radius: 10px;
+  border: 2px solid green; /* Green border around each project */
+  border-radius: 10px; /* Optional: rounded corners */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
   transition: transform 0.3s ease;
