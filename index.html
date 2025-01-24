@@ -3,45 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Riccardo Rettore - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="assets/favicon.png">
+  <title>Riccardo Rettore | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
   <header>
     <h1>Riccardo Rettore</h1>
     <p>Engineer | AI Enthusiast | Creator</p>
   </header>
 
-  <main>
-    <section id="projects">
-      <h2>My Projects</h2>
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      <!-- Project 1: Aurora -->
       <div class="project">
-        <img src="assets/images/project1.png" alt="Project 1">
-        <h3>Project Title</h3>
-        <p>Brief description of the project...</p>
+        <h3>Aurora: Object Classification with Oriented Boosting</h3>
+        <p><strong>Objective:</strong> Developed a deep learning pipeline for object classification with an emphasis on boosting techniques for improved accuracy.</p>
+        <p><strong>Technologies:</strong> PyTorch, TensorFlow, Python</p>
+        <p><strong>Results:</strong> Achieved state-of-the-art performance on a benchmark dataset, improving classification accuracy by 5% over baseline models.</p>
+        <a href="#" target="_blank" class="project-link">Link to Project</a>
       </div>
+
+      <!-- Project 2: Parking Spot Detection -->
       <div class="project">
-        <img src="assets/images/project2.png" alt="Project 2">
-        <h3>Project Title</h3>
-        <p>Brief description of the project...</p>
+        <h3>Computer Vision for Parking Spot Detection</h3>
+        <p><strong>Objective:</strong> Built a computer vision-based system to detect available parking spaces from images.</p>
+        <p><strong>Technologies:</strong> OpenCV, Python, Machine Learning</p>
+        <p><strong>Results:</strong> Achieved 90% precision in detecting parking spots under varying conditions.</p>
+        <a href="#" target="_blank" class="project-link">Link to Project</a>
       </div>
-    </section>
 
-    <section id="about">
-      <h2>About Me</h2>
-      <p>I'm Riccardo Rettore, a passionate engineer specializing in control systems, robotics, and AI...</p>
-    </section>
+      <!-- Project 3: RL for Swing-Up Stabilization -->
+      <div class="project">
+        <h3>Reinforcement Learning for Swing-Up Stabilization</h3>
+        <p><strong>Objective:</strong> Implemented a reinforcement learning agent to stabilize and perform the swing-up of an inverted pendulum system.</p>
+        <p><strong>Technologies:</strong> Python, PyBullet, PPO, TensorFlow</p>
+        <p><strong>Results:</strong> Achieved 95% swing-up success rate through training.</p>
+        <a href="#" target="_blank" class="project-link">Link to Project</a>
+      </div>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:riccardo@example.com">riccardo@example.com</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/riccardorettore" target="_blank">View Profile</a></p>
-    </section>
-  </main>
+      <!-- Project 4: Unicycle Controller -->
+      <div class="project">
+        <h3>Unicycle Controller Design</h3>
+        <p><strong>Objective:</strong> Designed a controller to stabilize a unicycle using modern control theory and algorithms.</p>
+        <p><strong>Technologies:</strong> MATLAB, Simulink, Control Theory</p>
+        <p><strong>Results:</strong> Developed a robust controller that successfully stabilized the unicycle under various conditions.</p>
+        <a href="#" target="_blank" class="project-link">Link to Project</a>
+      </div>
 
-  <footer>
-    <p>&copy; 2025 Riccardo Rettore</p>
-  </footer>
+      <!-- Project 5: Double-Wheel Robot -->
+      <div class="project">
+        <h3>Control Systems for Double-Wheel Robot</h3>
+        <p><strong>Objective:</strong> Developed controllers for a double-wheel robot to stabilize and perform basic movements.</p>
+        <p><strong>Technologies:</strong> MATLAB, Simulink, PID, LQR</p>
+        <p><strong>Results:</strong> Achieved stable motion with minimal oscillations and effective response to disturbances.</p>
+        <a href="#" target="_blank" class="project-link">Link to Project</a>
+      </div>
+    </div>
+  </section>
+
 </body>
 </html>
