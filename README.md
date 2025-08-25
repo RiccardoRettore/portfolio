@@ -1,4 +1,4 @@
-<img width="4583" height="158" alt="image" src="https://github.com/user-attachments/assets/d3bddba3-32f7-4ee7-90cd-fae199296c63" /># Riccardo Rettore - Portfolio  
+# Riccardo Rettore - Portfolio  
 
 Welcome to my personal portfolio! This repository showcases my work, projects, and skills as an aspiring AI engineer with a passion for robotics, computer vision, and deep learning.  
 
