@@ -19,7 +19,8 @@ This portfolio is a reflection of my journey, projects, and achievements in the 
 This portfolio is built using **HTML** and **CSS** and is designed to be simple, clean, and responsive. It includes the following sections:  
 
 - **Introduction**: A brief introduction about me and my areas of expertise.  
-- **Projects**: Highlights of some of my key projects, including:  
+- **Projects**: Highlights of some of my key projects, including:
+  - **Master Thesis**: Leveraging Ground Penetrating Radar with Deep Reinforcement Learning for Subsurface-Informed Navigation in Autonomous Agricultural Robotics
   - **Aurora**: Object Classification with Oriented Boosting  
   - **Computer Vision for Parking Spot Detection**  
   - **Reinforcement Learning for Swing-Up Stabilization**  
