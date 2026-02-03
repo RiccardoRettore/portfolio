@@ -38,7 +38,7 @@ To view the portfolio, simply open the `index.html` file in your web browser. Th
 
 1. Clone this repository to your local machine:  
     ```bash  
-    git clone https://github.com/1richi1/portfolio.git  
+    git clone https://github.com/RiccardoRettore/portfolio.git  
     ```  
 
 2. Navigate to the project folder:  
